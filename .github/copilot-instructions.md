@@ -24,7 +24,7 @@ Follow this numbered standard operating procedure for all contributions:
 
 4. **Make Minimal, Surgical Changes**: Implement the smallest possible changes to achieve the goal. Prefer modifying existing code over creating new files when possible.
 
-5. **Write Tests First**: Create focused tests that validate your changes. Ensure they align with existing test patterns in the repository. If no test infrastructure exists, document why tests are not included.
+5. **Write Comprehensive Tests**: Create focused tests that validate your changes. Ensure they align with existing test patterns in the repository. If no test infrastructure exists, document why tests are not included.
 
 6. **Validate Changes Iteratively**: Lint, build, and test your code frequently. Fix any issues immediately before proceeding. Use the project's established linting and formatting tools after every change to catch issues early.
 
