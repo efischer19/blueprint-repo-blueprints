@@ -1,7 +1,11 @@
+# Summary
+
 [AI should generate its detailed, structured summary here]
 
 ---
-### Final Checklist
+
+## Final Checklist
+
 - **Resolves:** Closes #[issue_number]
 - **ADR Compliance:** This PR adheres to all `Accepted` ADRs.
   - [list the most-relevant ADRs here for context]
