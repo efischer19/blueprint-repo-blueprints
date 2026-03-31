@@ -47,11 +47,13 @@ Before submitting any pull request, ensure your changes pass the same quality ch
 A pull request is considered complete when it meets all of these criteria:
 
 ### Functional Requirements
+
 - [ ] All acceptance criteria from the original issue are satisfied
 - [ ] The implementation solves the stated problem without introducing new issues
 - [ ] Edge cases and error conditions are properly handled
 
 ### Code Quality
+
 - [ ] Code follows the principles in `meta/DEVELOPMENT_PHILOSOPHY.md`
 - [ ] Changes are minimal and surgical — only necessary lines are modified
 - [ ] Code is readable, well-named, and includes comments explaining complex logic
@@ -59,18 +61,21 @@ A pull request is considered complete when it meets all of these criteria:
 - [ ] Code passes local formatting and linting checks
 
 ### Testing & Validation
+
 - [ ] New functionality is covered by automated tests that pass
 - [ ] All existing tests continue to pass
 - [ ] Manual verification confirms the feature works as expected
 - [ ] Performance implications have been considered
 
 ### Documentation & Process
+
 - [ ] Relevant ADRs are referenced in the PR description
 - [ ] Any new architectural decisions are documented as proposed ADRs
 - [ ] Commit messages are descriptive and follow conventional format
 - [ ] The PR description clearly explains what changed and why
 
 ### Integration
+
 - [ ] All CI/CD checks pass
 - [ ] Code integrates cleanly with existing systems
 - [ ] No conflicts with other ongoing work

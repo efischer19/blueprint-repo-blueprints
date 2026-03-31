@@ -20,13 +20,13 @@ The clear, concise statement of the decision that has been made. For example: "W
 
 ## Considered Options
 
-1.  **Option 1 (The Chosen One):** Briefly describe the selected option.
+1. **Option 1 (The Chosen One):** Briefly describe the selected option.
     * *Pros:* What are the benefits of this choice?
     * *Cons:* What are the drawbacks or trade-offs?
-2.  **Option 2:** Describe another option that was considered.
+2. **Option 2:** Describe another option that was considered.
     * *Pros:* ...
     * *Cons:* ...
-3.  **Option 3:** ...
+3. **Option 3:** ...
 
 ## Consequences
 

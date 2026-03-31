@@ -10,9 +10,9 @@ This project adheres to the principles documented in [`meta/DEVELOPMENT_PHILOSOP
 
 This project follows an AI-assisted development workflow:
 
-1.  An **Issue** is created that clearly defines a bug or a feature.
-2.  An **AI assistant** (like GitHub Copilot) is used to generate the code to address the issue, resulting in a **Pull Request**.
-3.  The PR is then reviewed, tested, and **merged by a human maintainer**.
+1. An **Issue** is created that clearly defines a bug or a feature.
+2. An **AI assistant** (like GitHub Copilot) is used to generate the code to address the issue, resulting in a **Pull Request**.
+3. The PR is then reviewed, tested, and **merged by a human maintainer**.
 
 ## How You Can Help
 
