@@ -95,4 +95,3 @@ jobs:
         with:
           globs: |
             **/*.md
-            !hoopstat-haus-ref/**
