@@ -22,11 +22,6 @@ echo ""
 echo "🏗️  Building documentation site..."
 mkdocs build
 
-if [ $? -ne 0 ]; then
-    echo "❌ Error: Failed to build documentation site"
-    exit 1
-fi
-
 echo "✅ Documentation site built successfully"
 echo ""
 echo "📂 Documentation files are in: ./site/"
