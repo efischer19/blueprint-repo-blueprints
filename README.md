@@ -26,7 +26,7 @@ For more details on GitHub template repositories, see the [official documentatio
 
 ### Key Files
 
-- **`LICENSE.md`** — GNU General Public License v3.0
+- **`LICENSE.md`** — MIT License
 - **`CODE_OF_CONDUCT.md`** — Contributor Covenant Code of Conduct
 - **`SECURITY.md`** — Security policy and vulnerability reporting
 - **`CONTRIBUTING.md`** — Guidelines for contributing to the project
@@ -41,4 +41,4 @@ For more details on GitHub template repositories, see the [official documentatio
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](./LICENSE.md).
+This project is licensed under the [MIT License](./LICENSE.md).
