@@ -40,10 +40,10 @@ echo ""
 # --- Markdown linting (optional) ---
 echo "▶ Running markdown lint..."
 if command -v markdownlint-cli2 &> /dev/null; then
-  markdownlint-cli2 "**/*.md" "!hoopstat-haus-ref/**"
+  markdownlint-cli2 "**/*.md"
   echo "✅ Markdown lint passed"
 elif npx --yes markdownlint-cli2 --help &> /dev/null 2>&1; then
-  npx --yes markdownlint-cli2 "**/*.md" "!hoopstat-haus-ref/**"
+  npx --yes markdownlint-cli2 "**/*.md"
   echo "✅ Markdown lint passed"
 else
   echo "⚠️  markdownlint-cli2 is not installed — skipping markdown lint"

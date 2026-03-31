@@ -33,6 +33,50 @@ For more details on GitHub template repositories, see the [official documentatio
 - **`meta/adr/TEMPLATE.md`** — Template for new Architecture Decision Records
 - **`meta/adr/ADR-001-use_adrs.md`** — The founding ADR: use ADRs to document decisions
 
+## Getting Started
+
+After creating a new repository from this template:
+
+### 1. Replace Template Placeholders
+
+Search the repository for the following placeholders and replace them with values appropriate for your project:
+
+| Placeholder | Description | Example |
+| :--- | :--- | :--- |
+| `{{PROJECT_NAME}}` | Your repository / project name | `my-awesome-project` |
+| `{{GITHUB_OWNER}}` | GitHub username or organization | `my-org` |
+| `{{APP_NAME}}` | Application directory name (in `templates/readme/apps.md`) | `web-app` |
+| `{{LIB_NAME}}` | Library directory name (in `templates/readme/libs.md`) | `core-utils` |
+| `{{CATEGORY_NAME}}` | Feature category (in `docs-src/feature-request-automation.md`) | `data-pipeline` |
+| `{{PROJECT_URL}}` | Public URL for your project (in `meta/ROBOT_ETHICS.md`) | `https://example.com` |
+
+### 2. Customize Key Files
+
+- **`README.md`** — Replace this content with your project's description.
+- **`mkdocs.yml`** — Update site name, description, and URL after replacing placeholders.
+- **`docs-src/index.md`** — Replace the placeholder setup instructions with your own.
+- **`meta/DEVELOPMENT_PHILOSOPHY.md`** — Review and adjust principles to fit your project's needs.
+- **`SECURITY.md`** — Update contact information for vulnerability reporting.
+
+### 3. Set Up Local Development
+
+```bash
+# Install pre-commit hooks
+pip install pre-commit
+pre-commit install
+
+# Run local quality checks
+./scripts/local-ci-check.sh
+
+# Build documentation (optional)
+pip install -r docs-requirements.txt
+./scripts/build-docs.sh
+```
+
+### 4. Verify CI
+
+Push a change or open a pull request to confirm the CI workflow runs and passes in your new repository.
+
 ## Design Principles
 
 - **Minimal by design.** Downstream blueprints add language-specific tooling, CI/CD, and dependencies.
