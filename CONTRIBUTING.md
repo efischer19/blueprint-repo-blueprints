@@ -1,6 +1,10 @@
-# Contributing
+# Contributing to {{PROJECT_NAME}}
 
 First off, thank you for your interest in contributing! We're excited you're here.
+
+## Development Philosophy
+
+This project adheres to the principles documented in [`meta/DEVELOPMENT_PHILOSOPHY.md`](./meta/DEVELOPMENT_PHILOSOPHY.md). Please read and understand these principles before contributing.
 
 ## Development Workflow
 
