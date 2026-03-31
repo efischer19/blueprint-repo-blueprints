@@ -19,9 +19,9 @@ body:
       label: "Acceptance Criteria"
       description: "How will we know this is done? Use checkboxes."
       value: |
-        - [ ] 
-        - [ ] 
-        - [ ] 
+        - [ ]
+        - [ ]
+        - [ ]
     validations:
       required: true
 
